@@ -1,33 +1,48 @@
-# DTO
+<div style="color: blue; font-size: 38px;">
+    DTO
+</div>
 
 Vamos a aplicar esta metedologia para hacer las validaciones logicas de los
 datos de entrada, antes de paraslor a los routings, basicamente solo tenemos 
 getter y setter
 
--- 
+---
 
-## CARACTERISTICAS
+<div style="color: blue; font-size: 28px;">
+    CARACTERISTICAS
+</div>
 
 -> Solo se maneja encapsulamiento para nuestros casos
 
---
+---
 
-## REQUISITOS MINIMOS
+<div style="color: blue; font-size: 28px;">
+    REQUISITOS MINIMOS
+</div>
 
 -> Conocimientos en typeScript
 -> Autocompilador
 -> TypeCript.json
 
---
+---
 
-## PASO A PASO
+<div style="color: blue; font-size: 28px;">
+    PASO A PASO
+</div> 
 
-# inicializamos node
+
+<div style="color: blue; font-size: 18px;">
+    inicializamos node
+</div> 
 
 ```
 npm init -y
 ```
-# Configuracion del tsconfig.js
+
+<div style="color: blue; font-size: 18px;">
+    Configuracion del tsconfig.js
+</div>
+ 
 
 ```
 {
@@ -43,7 +58,9 @@ npm init -y
 }
 ``` 
 
-# Configuracion del archivo package.json
+<div style="color: blue; font-size: 18px;">
+    Configuracion del archivo package.json
+</div> 
 
 ```
 {
@@ -70,10 +87,13 @@ npm init -y
 
 ```
 
-# Instalamos las dependencias
+<div style="color: blue; font-size: 18px;">
+    Instalamos las dependencias
+</div>
+ 
 
 ```
-npm i -E -D calss-transformer
+npm i -E -D class-transformer
 ```
 
 ```
@@ -83,8 +103,10 @@ npm i -E -D reflect-metadata
 ```
 npm i -E -D typescript
 ```
+<div style="color: blue; font-size: 18px;">
+     Damos inicio a los observadoresp.
+</div>
 
-# Damos inicio a los observadores
 
 ```
 npm run tsc
